@@ -21,3 +21,44 @@ body {
 img {
     display: block;
 }
+
+.profile-image {
+    border: 10px solid rgb(0, 118, 110);
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.profile-stats {
+   position: relative;
+   top: 100px;
+   right: 180px;
+}
+
+.profile-bio {
+    position: relative;
+    top:250px;
+    right: 230px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: auto;
+    margin: auto;
+   
+}
+
+.gallery-image {
+    position: relative;
+   width: 50px;
+   height: 70px;
+}
+
+
+
+
