@@ -95,12 +95,10 @@ li {
     opacity: 0.5;
 }
 
-
 .gallery-item-info {
     position: relative;
-    font-size: 20px;
-    top: 30px;
-
+    font-size: 15px;
+    top: 120px;
 }
 
 .visually-hidden {
