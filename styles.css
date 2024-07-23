@@ -40,9 +40,6 @@ li {
     justify-content: center;
 }
 
-.profile-image {
-}
-
 .profile-bio {
     margin-top: 20px;
 }
@@ -53,7 +50,10 @@ li {
     gap: 10px;
     cursor: pointer;
     margin-bottom: 40px;
+    margin-right: 170px;
 }
+
+.butt
 
 .profile-stats {
     display: flex;
@@ -68,20 +68,13 @@ li {
 }
 
 .profile-bio {
-   font-size: 16px;
+   font-size: 18px;
 }
 
 .profile-content {
    display: flex;
    flex-direction: column;
    justify-content: center;
-}
-
-.profile-user-name,
-.profile-edit-btn,
-.profile-settings-btn {
-    height: 30px;
-    font-size: 20px;
 }
 
 /* GALLERY */
@@ -111,10 +104,14 @@ li {
     opacity: 0.5;
 }
 
-.gallery-item-info {
+.gallery-item {
     position: relative;
+    bottom: 100px;
+}
+
+.gallery-item-info {
+    position: absolute;
     font-size: 15px;
-    top: 120px;
 }
 
 .visually-hidden {
@@ -139,6 +136,3 @@ li {
         transform: rotate(360deg);
     }
 }
-
-
-
