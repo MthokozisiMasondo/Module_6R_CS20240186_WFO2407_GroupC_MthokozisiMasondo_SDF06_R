@@ -74,9 +74,9 @@ li {
 
 .gallery {
     display: grid;
-    grid-template-columns: 85px 85px 85px;
+    grid-template-columns: 180px 180px 180px;
     grid-template-rows: auto;
-    gap: 65px;
+    gap: 140px;
     justify-content: center;
     margin-top: 70px;
     overflow: hidden;
@@ -84,8 +84,6 @@ li {
 
 .gallery-image {
    position: relative;
-   width: 150px;
-   height: 170px;
    width: 170%;
    height: 100%;
    object-fit: cover;
